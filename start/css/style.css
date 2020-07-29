@@ -91,3 +91,69 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.slider .slick-dots button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0B0B0B;
+    border: none;
+    padding: 0;
+    font-size: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.slider .slick-dots .slick-active button {
+    background-color: #fff;
+}
+
+.slider .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slider .slick-dots {
+    margin: -55px auto 0;
+    position: relative;
+    z-index: 6;
+    max-width: 1200px;
+}
+
+.statistics {
+    margin: 160px 0 100px;
+}
+
+.statistics-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.statistics-item__title {
+    margin-bottom: 19px;
+}
+
+.statistics-item__num {
+    font-size: 96px;
+    line-height: 112px;
+    margin-bottom: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.statistics-item__num span {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.statistics-item__num .span-1 {
+    margin-left: -25px;
+}
+
+.statistics-item__descr {
+    color: #B70021;
+}
+
+.video {
+    margin-bottom: 100px;
+}
