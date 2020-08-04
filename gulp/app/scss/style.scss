@@ -175,4 +175,18 @@
     }
 }
 
+.header__map {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.header__arrows {
+    position: absolute;
+    left: 218px;
+    bottom: 40px;
+    z-index: 3;
+}
+
 @import "media";
