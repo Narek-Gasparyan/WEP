@@ -1,12 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    background-color: #171919;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 a {
     display: inline-block;
     text-decoration: none;
+    color: #fff;
 }
 
 ul,
@@ -16,12 +30,15 @@ li {
     padding: 0;
 }
 
-.subtitl-left {
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.headlite-left {
     font-size: 22px;
     line-height: 32px;
     letter-spacing: 7.33333px;
-    text-transform: uppercase;
-    color: #FFFFFF;
     opacity: 0.5;
     padding-left: 103px;
     position: relative;
@@ -34,5 +51,77 @@ li {
         background-color: #FFF;
         left: 0;
         top: 50%;
+    }
+}
+
+.title {
+    span {
+        font-size: 200px;
+        color: rgba( #fff, .02);
+        font-weight: 800;
+        position: relative;
+        transform: translateX(-50px);
+        display: inline-block;
+    }
+    h3 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        color: #fff;
+        font-size: 80px;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 80px;
+            height: 1px;
+            background-color: #4AF6CD;
+        }
+    }
+}
+
+.sabtitle {
+    display: inline-block;
+    text-align: right;
+    &__head {
+        font-weight: 800;
+        font-size: 40px;
+    }
+    span {
+        font-weight: 100;
+    }
+}
+
+.btn {
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 800;
+    span {
+        padding: 17px 57px 15px 17px;
+        background-color: #4AF6CD;
+        display: inline-block;
+        margin-left: 19px;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 23px;
+            height: 1px;
+            background: #FFF;
+            top: 50%;
+            left: -15px;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 21px;
+            background-image: url(../img/arrows-right.svg);
+            top: 35px;
+            right: 17px;
+            transform: translateY(-50%);
+        }
     }
 }
