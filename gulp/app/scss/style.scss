@@ -298,6 +298,7 @@
     background-position: center;
     margin: 0 auto;
     .slick-list {
+        max-width: 1200px;
         min-height: 635px;
     }
     .slick-current {
@@ -378,11 +379,13 @@
 }
 
 .slider-docs {
-    position: relative;
+    position: absolute;
 }
 
 .slider-docs--1 {
-    margin: 324px 0px 0px 89px;
+    position: absolute;
+    top: 336px;
+    left: 56px;
 }
 
 .slider-docs--2 {
@@ -407,7 +410,9 @@
 }
 
 .slider-docs--4 {
-    margin: 487px 1px 1px 68px;
+    position: absolute;
+    top: 427px;
+    left: 585px;
 }
 
 .slider-docs--5 {

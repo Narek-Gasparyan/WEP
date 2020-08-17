@@ -11,7 +11,7 @@ $(function() {
     $('.slider-dotshead').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
-        asNavFor: '.slider-map',
+        asNavFor: '.header__slider',
     })
 
     $('.sorf-slider').slick({
@@ -19,6 +19,7 @@ $(function() {
         slidesToScroll: 1,
         prevArrow: '<img class="slider-arrows slider-arroes__left" src="img/arrows-left.svg" alt=""> </img>',
         nextArrow: '<img class="slider-arrows slider-arroes__right" src="img/arrows-right.svg" alt=""> </img>',
+        asNavFor: '.slider-map',
     })
 
     $('.slider-map').slick({
