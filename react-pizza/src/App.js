@@ -7,6 +7,9 @@ import { Header, Categories } from './componends';
 
 
 function App() {
+
+  
+
   return (
     <div className="wrapper">
       <Header />
@@ -14,7 +17,7 @@ function App() {
         <div className="container">
           <div className="content__top">
             <Categories
-              onClick={(name) => console.log(name)}
+              onClickItom={(name) => console.log(name)}
               items={["Мясные", "Вегетарианская", "Гриль", "Острые", "Острые"]}
             />
             <div className="sort">
