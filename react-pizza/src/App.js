@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 import { Header, } from './componends';
 import { Home, Cart } from './pages';
@@ -13,10 +14,11 @@ function App() {
 
 
   React.useEffect(() => {
-    fetch("http://192.168.0.120:3000/db.json").then((resp) => resp.json()).then(json => {
-      setPizzas(json.pizzas);
+    axios.get("http://localhost:3000/db.json").then(({ data }) => {
+      setPizzas(data.pizzas);
     });
   }, []);
+
 
   
 
