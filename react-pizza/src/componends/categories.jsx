@@ -10,13 +10,15 @@ function Categories({ items, onClickItom }) {
   return (
     <div className="categories">
       <ul>
-        <li className={activeItom === null ? "active" : ""}  onClick={() => onSelectItem(null)}>Все</li>
-        {items.map((name, index) => (
+        <li className={activeItom === null ? "active" : ""}  onClick={() => onSelectItem(null)}>
+          Все
+          </li>
+        {items &&
+        items.map((name, index) => (
           <li
             className={activeItom === index ? "active" : ""}
             onClick={() => onSelectItem(index)}
-            key={`${name}_${index}`}
-          >
+            key={`${name}_${index}`}>  
             {name}
           </li>
         ))}

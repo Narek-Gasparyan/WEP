@@ -1,0 +1,208 @@
+{
+    "pizzas": [
+        {
+            "id": 0,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/b2199a23a1a64621be62e1a836f0ede0_292x292.jpeg",
+            "name": "Деревенская",
+            "types": [0, 1],  "sizes": [26, 30, 40],
+            "price": 1800,
+            "category": 0,
+            "rating": 4
+
+        },
+        {
+            "id": 1,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/2925a332340d4d85ba913d99b34d651a_292x292.jpeg",
+            "name": "Сырная",
+            "types": [0],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 1900,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 2,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/7ce61c06-4133-4f74-be13-fcbccc1cf562.jpg",
+            "name": "Маргарита",
+            "types": [0, 1],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 2400,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 3,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/d43316cd-68c8-4309-a793-b8e3c4a720de.jpg",
+            "name": "Ветчина и грибы",
+            "types": [1],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 3200,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 4,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/d5f51ef8-66d7-468d-83f2-d8cad5f4989e.jpg",
+            "name": "Пицца-пирог 🌱",
+            "types": [0, 1],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 1600,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 5,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/19854080-de83-4128-be6b-0c97f1be980c.jpg",
+            "name": "Гавайская",
+            "types": [0, 1],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 2100,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 6,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/043d6bc574a648f0a3c368ac4d977a8b_292x292.jpeg",
+            "name": "Овощи и грибы 🌱",
+            "types": [0, 1],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 1900,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 7,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/c2097b52-72fd-483b-8dd2-6aa223d93bff.jpg",
+            "name": "Четыре сезона",
+            "types": [0, 1],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 3500,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 8,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/f9086601-4e2a-436c-872b-2363cc61fcc4.jpg",
+            "name": "Итальянская пицца",
+            "types": [0, 1],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 2700,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 9,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/129a6377-8a75-473a-9813-138ff1b080f5.jpg",
+            "name": "Чизбургер-пицца",
+            "types": [0, 1],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 3999,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 10,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/4313ec5d-b251-4074-bdd4-4bd4fdbbeb43.jpg",
+            "name": "Сырный цыпленок",
+            "types": [
+                
+                1
+            ],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 3100,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 11,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/67e22a02-b58d-416b-8b4b-234fd537981e.jpg",
+            "name": "Мексиканская 🌶️🌶️",
+            "types": [
+                0,
+                1
+            ],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 2600,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 12,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/468b6d61-bd29-4f02-bffd-479143a39a93.jpg",
+            "name": "Мясная",
+            "types": [
+                0,
+                1
+            ],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 1900,
+            "category": 0,
+            "rating": 4
+        },
+        {
+            "id": 13,
+            "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/Pizza/ru-RU/4a92676e-b211-4a77-920d-3bf0649c724b.jpg",
+            "name": "Цыпленок барбекю",
+            "types": [
+                0,
+                1
+            ],
+            "sizes": [
+                26,
+                30,
+                40
+            ],
+            "price": 2800,
+            "category": 0,
+            "rating": 4
+        }
+    ]
+}
