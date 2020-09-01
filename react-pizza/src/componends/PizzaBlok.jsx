@@ -24,7 +24,7 @@ function PizzaBlok({ name, imageUrl, price, types, sizes }) {
         <ul>
           {availableTypes.map((type, index) => (
             <li
-              key={types}
+              key={index}
               onClick={() => onSelectType(index)}
               className={classNames({
                 active: activeType === index,
@@ -37,7 +37,7 @@ function PizzaBlok({ name, imageUrl, price, types, sizes }) {
         <ul>
           {availableSizes.map((size, index) => (
             <li
-              key={sizes}
+              key={index}
               onClick={() => onSelectSize(index)}
               className={classNames({
                 active: activeSize === index,
@@ -72,16 +72,20 @@ function PizzaBlok({ name, imageUrl, price, types, sizes }) {
 }
 
 PizzaBlok.propTypes = {
-  name: PropTypes.string.isRequired,
-  imageUrl: PropTypes.string.isRequired,
-  price: PropTypes.number.isRequired,
-  types: PropTypes.arrayOf(PropTypes.number).isRequired,
-  sizes: PropTypes.arrayOf(PropTypes.number).isRequired,
+  name: PropTypes.string,
+  imageUrl: PropTypes.string,
+  price: PropTypes.number,
+  types: PropTypes.arrayOf(PropTypes.number),
+  sizes: PropTypes.arrayOf(PropTypes.number),
 };
 
 
 PizzaBlok.defaultProps = {
-  types: [],  
+  name: '---',
+  price: 0,
+  imageUrl: 'https://cdn.dodostatic.net/site-static/dist/611f501db3a3369fac31.svg',
+  types: [],
+  sizes: []  
 };
 
 export default PizzaBlok;
